@@ -1,2 +1,3 @@
 venv/
 fetch_data.py
+/data/steam_games_partial.csv
