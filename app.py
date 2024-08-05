@@ -1,13 +1,14 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
+import plotly.express as px
+
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("your_data.csv")
+    return pd.read_csv("./data/raw/steam_games_partial.csv")
 
 def plot_data(df, x_col, y_col):
-    fig = sns.scatter(df, x=x_col, y=y_col)
+    fig = px.scatter(df, x=x_col, y=y_col)
     return st.plotly_chart(fig)
 
 def main():
