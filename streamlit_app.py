@@ -1,53 +1,54 @@
 import streamlit as st
 import numpy as np
-import pandas as pd
 from transformers import BertTokenizer, BertModel
-from sklearn.metrics.pairwise import cosine_similarity
 import torch
+from sklearn.metrics.pairwise import cosine_similarity
+import pandas as pd
 
-# Define a function to load data
+# Load pre-trained BERT model and tokenizer
+bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+bert_model = BertModel.from_pretrained('bert-base-uncased')
+
 @st.cache_data
 def load_data():
-    item_feature_matrix = np.load('item_feature_matrix.npy')
-    user_feature_matrix = np.load('user_feature_matrix.npy')
-    games_df = pd.read_csv('games_df.csv')
-    return item_feature_matrix, user_feature_matrix, games_df
+    games_df = pd.read_csv('filtered_games_df.csv')
+    reduced_item_feature_matrix_3d = np.load('reduced_item_feature_matrix_3d.npy')
+    return games_df, reduced_item_feature_matrix_3d
 
 # Function to get text embedding
 def get_embedding(text):
-    tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-    model = BertModel.from_pretrained('bert-base-uncased')
-    inputs = tokenizer(text, return_tensors='pt', truncation=True, padding=True, max_length=512)
-    outputs = model(**inputs)
+    inputs = bert_tokenizer(text, return_tensors='pt', truncation=True, padding=True, max_length=512)
+    outputs = bert_model(**inputs)
     return outputs.last_hidden_state.mean(dim=1).cpu().detach().numpy()
 
-# Function to recommend games
+# Recommendation function
 def recommend_games(user_input, item_feature_matrix, games_df):
     user_embedding = get_embedding(user_input)
-    similarities = cosine_similarity(user_embedding, item_feature_matrix)
+    similarities = cosine_similarity(user_embedding, reduced_item_feature_matrix_3d)
     top_n = 5
     recommendations = similarities[0].argsort()[-top_n:][::-1]
     return recommendations
 
-# Streamlit app
-st.title("Steam Game Recommendation System")
-
 # Load data
-item_feature_matrix, user_feature_matrix, games_df = load_data()
+games_df, reduced_item_feature_matrix_3d = load_data()
+
+# Streamlit app
+st.markdown("<h1 class='title' style='text-align: center;'>Steam Game Recommendation System</h1>", unsafe_allow_html=True)
+st.markdown("<h2 class='header' style='text-align: center;'>Find Your Next Favorite Game!</h2>", unsafe_allow_html=True)
 
 # User input
-user_input = st.text_area("Enter a description of the type of game you want to play:")
+st.markdown("<h3 class='subheader' style='text-align: center;'>Describe your ideal game:</h3>", unsafe_allow_html=True)
+user_input = st.text_input("Enter a description of the game you want to play (e.g., 'I want a History focussed RPG.')", key="user_input")
+st.write("<p style='text-align: center;'>Hit Enter to get your recommendations!</p>", unsafe_allow_html=True)
 
-if st.button("Get Recommendations"):
-    recommendations = recommend_games(user_input, item_feature_matrix, games_df)
-    st.write("Top 5 Recommended Games:")
+if user_input:
+    st.markdown("<h3 class='subheader' style='text-align: center;'>Top 5 Recommended Games</h3>", unsafe_allow_html=True)
+    recommendations = recommend_games(user_input, reduced_item_feature_matrix_3d, games_df)
     for idx in recommendations:
-        game_info = games_df[games_df['appid'] == idx].iloc[0]
-        st.write(f"Name: {game_info['name']}")
-        st.write(f"Description: {game_info['description']}")
-        st.write(f"Price: {game_info['price']}")
-        st.write(f"Release Date: {game_info['release_date']}")
-        st.write(f"Developer: {game_info['developer']}")
-        st.write(f"Publisher: {game_info['publisher']}")
-        st.write(f"Tags: {game_info['tags']}")
-        st.write("---")
+        game_info = games_df.iloc[idx]
+        st.image(f"https://steamcdn-a.akamaihd.net/steam/apps/{game_info['appid']}/header.jpg", width=300)
+        st.markdown(f"<div style='text-align: center;'><strong>{game_info['name']}</strong></div>", unsafe_allow_html=True)
+        st.markdown(f"<div style='text-align: center;'><strong>Description:</strong> {game_info['description']}</div>", unsafe_allow_html=True)
+        st.markdown(f"<div style='text-align: center;'><strong>Price:</strong> {game_info['price']}</div>", unsafe_allow_html=True)
+        st.markdown(f"<div style='text-align: center;'><strong>Release Date:</strong> {game_info['release_date']}</div>", unsafe_allow_html=True)
+        st.markdown("<hr>", unsafe_allow_html=True)
