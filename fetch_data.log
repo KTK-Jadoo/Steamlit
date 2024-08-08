@@ -1,0 +1,79 @@
+2024-08-08 00:58:47,844 - INFO - Fetching app list...
+2024-08-08 00:58:52,839 - INFO - Fetched 208732 apps.
+2024-08-08 00:58:53,322 - WARNING - Failed to fetch game details for appid: 2016512
+2024-08-08 00:58:53,322 - INFO - Fetched details for appid: 2016512
+2024-08-08 00:58:53,346 - WARNING - Failed to fetch game details for appid: 1897482
+2024-08-08 00:58:53,346 - WARNING - Failed to fetch game details for appid: 1941401
+2024-08-08 00:58:53,356 - WARNING - Failed to fetch game details for appid: 2112761
+2024-08-08 00:58:53,360 - WARNING - Failed to fetch game details for appid: 1820332
+2024-08-08 00:58:53,807 - WARNING - Failed to fetch game details for appid: 662172
+2024-08-08 00:58:53,816 - WARNING - Failed to fetch game details for appid: 1360782
+2024-08-08 00:58:53,819 - WARNING - Failed to fetch game details for appid: 216938
+2024-08-08 00:58:53,820 - WARNING - Failed to fetch game details for appid: 660130
+2024-08-08 00:58:53,820 - WARNING - Failed to fetch game details for appid: 660010
+2024-08-08 00:58:54,271 - WARNING - Failed to fetch game details for appid: 1275822
+2024-08-08 00:58:54,275 - WARNING - Failed to fetch game details for appid: 1118314
+2024-08-08 00:58:54,277 - WARNING - Failed to fetch game details for appid: 1343832
+2024-08-08 00:58:54,277 - WARNING - Failed to fetch game details for appid: 1828741
+2024-08-08 00:58:54,291 - WARNING - Failed to fetch game details for appid: 1927051
+2024-08-08 00:58:54,324 - INFO - Fetched details for appid: 1897482
+2024-08-08 00:58:54,746 - WARNING - Failed to fetch game details for appid: 1808781
+2024-08-08 00:58:54,748 - WARNING - Failed to fetch game details for appid: 1496152
+2024-08-08 00:58:54,765 - WARNING - Failed to fetch game details for appid: 1977312
+2024-08-08 00:58:54,769 - WARNING - Failed to fetch game details for appid: 1983382
+2024-08-08 00:58:54,781 - WARNING - Failed to fetch game details for appid: 1700632
+2024-08-08 00:58:55,189 - WARNING - Failed to fetch game details for appid: 1567401
+2024-08-08 00:58:55,211 - WARNING - Failed to fetch game details for appid: 1829051
+2024-08-08 00:58:55,215 - WARNING - Failed to fetch game details for appid: 2092072
+2024-08-08 00:58:55,232 - WARNING - Failed to fetch game details for appid: 596501
+2024-08-08 00:58:55,293 - WARNING - Failed to fetch game details for appid: 2119422
+2024-08-08 00:58:55,325 - INFO - Fetched details for appid: 1941401
+2024-08-08 00:58:55,653 - WARNING - Failed to fetch game details for appid: 2156011
+2024-08-08 00:58:55,704 - WARNING - Failed to fetch game details for appid: 1825161
+2024-08-08 00:58:55,722 - WARNING - Failed to fetch game details for appid: 2170321
+2024-08-08 00:58:55,757 - WARNING - Failed to fetch game details for appid: 2177061
+2024-08-08 00:58:55,764 - WARNING - Failed to fetch game details for appid: 1383152
+2024-08-08 00:58:56,325 - INFO - Fetched details for appid: 2112761
+2024-08-08 00:58:57,326 - INFO - Fetched details for appid: 1820332
+2024-08-08 00:58:58,020 - WARNING - Failed to fetch game details for appid: 1312081
+2024-08-08 00:58:58,055 - WARNING - Failed to fetch game details for appid: 2292161
+2024-08-08 00:58:58,055 - WARNING - Failed to fetch game details for appid: 1375021
+2024-08-08 00:58:58,082 - WARNING - Failed to fetch game details for appid: 2121741
+2024-08-08 00:58:58,185 - WARNING - Failed to fetch game details for appid: 1496243
+2024-08-08 00:58:58,326 - INFO - Fetched details for appid: 662172
+2024-08-08 00:58:58,419 - WARNING - Failed to fetch game details for appid: 2216261
+2024-08-08 00:58:59,326 - INFO - Fetched details for appid: 1360782
+2024-08-08 00:59:00,327 - INFO - Fetched details for appid: 216938
+2024-08-08 00:59:00,599 - WARNING - Failed to fetch game details for appid: 2117650
+2024-08-08 00:59:01,327 - INFO - Fetched details for appid: 660130
+2024-08-08 00:59:02,328 - INFO - Fetched details for appid: 660010
+2024-08-08 00:59:03,328 - INFO - Fetched details for appid: 1275822
+2024-08-08 00:59:04,217 - WARNING - Failed to fetch game details for appid: 2117980
+2024-08-08 00:59:04,329 - INFO - Fetched details for appid: 1118314
+2024-08-08 00:59:04,698 - WARNING - Failed to fetch game details for appid: 2117990
+2024-08-08 00:59:05,330 - INFO - Fetched details for appid: 1343832
+2024-08-08 00:59:06,331 - INFO - Fetched details for appid: 1828741
+2024-08-08 00:59:07,331 - INFO - Fetched details for appid: 1927051
+2024-08-08 00:59:08,331 - INFO - Fetched details for appid: 1808781
+2024-08-08 00:59:09,332 - INFO - Fetched details for appid: 1496152
+2024-08-08 00:59:10,333 - INFO - Fetched details for appid: 1977312
+2024-08-08 00:59:11,334 - INFO - Fetched details for appid: 1983382
+2024-08-08 00:59:12,334 - INFO - Fetched details for appid: 1700632
+2024-08-08 00:59:12,647 - WARNING - Failed to fetch game details for appid: 2117460
+2024-08-08 00:59:13,124 - WARNING - Failed to fetch game details for appid: 2117480
+2024-08-08 00:59:13,335 - INFO - Fetched details for appid: 1567401
+2024-08-08 00:59:13,557 - WARNING - Failed to fetch game details for appid: 2117481
+2024-08-08 00:59:13,645 - WARNING - Failed to fetch game details for appid: 2117482
+2024-08-08 00:59:13,690 - WARNING - Failed to fetch game details for appid: 2117483
+2024-08-08 00:59:14,336 - INFO - Fetched details for appid: 1829051
+2024-08-08 00:59:15,336 - INFO - Fetched details for appid: 2092072
+2024-08-08 00:59:15,894 - WARNING - Failed to fetch game details for appid: 2116640
+2024-08-08 00:59:16,274 - WARNING - Failed to fetch game details for appid: 2116660
+2024-08-08 00:59:16,337 - INFO - Fetched details for appid: 596501
+2024-08-08 00:59:17,337 - INFO - Fetched details for appid: 2119422
+2024-08-08 00:59:18,338 - INFO - Fetched details for appid: 2156011
+2024-08-08 00:59:19,338 - INFO - Fetched details for appid: 1825161
+2024-08-08 00:59:20,339 - INFO - Fetched details for appid: 2170321
+2024-08-08 00:59:21,340 - INFO - Fetched details for appid: 2177061
+2024-08-08 00:59:21,912 - WARNING - Failed to fetch game details for appid: 2117030
+2024-08-08 00:59:22,340 - INFO - Fetched details for appid: 1383152
