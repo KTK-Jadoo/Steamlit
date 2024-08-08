@@ -1,79 +1,492 @@
-2024-08-08 00:58:47,844 - INFO - Fetching app list...
-2024-08-08 00:58:52,839 - INFO - Fetched 208732 apps.
-2024-08-08 00:58:53,322 - WARNING - Failed to fetch game details for appid: 2016512
-2024-08-08 00:58:53,322 - INFO - Fetched details for appid: 2016512
-2024-08-08 00:58:53,346 - WARNING - Failed to fetch game details for appid: 1897482
-2024-08-08 00:58:53,346 - WARNING - Failed to fetch game details for appid: 1941401
-2024-08-08 00:58:53,356 - WARNING - Failed to fetch game details for appid: 2112761
-2024-08-08 00:58:53,360 - WARNING - Failed to fetch game details for appid: 1820332
-2024-08-08 00:58:53,807 - WARNING - Failed to fetch game details for appid: 662172
-2024-08-08 00:58:53,816 - WARNING - Failed to fetch game details for appid: 1360782
-2024-08-08 00:58:53,819 - WARNING - Failed to fetch game details for appid: 216938
-2024-08-08 00:58:53,820 - WARNING - Failed to fetch game details for appid: 660130
-2024-08-08 00:58:53,820 - WARNING - Failed to fetch game details for appid: 660010
-2024-08-08 00:58:54,271 - WARNING - Failed to fetch game details for appid: 1275822
-2024-08-08 00:58:54,275 - WARNING - Failed to fetch game details for appid: 1118314
-2024-08-08 00:58:54,277 - WARNING - Failed to fetch game details for appid: 1343832
-2024-08-08 00:58:54,277 - WARNING - Failed to fetch game details for appid: 1828741
-2024-08-08 00:58:54,291 - WARNING - Failed to fetch game details for appid: 1927051
-2024-08-08 00:58:54,324 - INFO - Fetched details for appid: 1897482
-2024-08-08 00:58:54,746 - WARNING - Failed to fetch game details for appid: 1808781
-2024-08-08 00:58:54,748 - WARNING - Failed to fetch game details for appid: 1496152
-2024-08-08 00:58:54,765 - WARNING - Failed to fetch game details for appid: 1977312
-2024-08-08 00:58:54,769 - WARNING - Failed to fetch game details for appid: 1983382
-2024-08-08 00:58:54,781 - WARNING - Failed to fetch game details for appid: 1700632
-2024-08-08 00:58:55,189 - WARNING - Failed to fetch game details for appid: 1567401
-2024-08-08 00:58:55,211 - WARNING - Failed to fetch game details for appid: 1829051
-2024-08-08 00:58:55,215 - WARNING - Failed to fetch game details for appid: 2092072
-2024-08-08 00:58:55,232 - WARNING - Failed to fetch game details for appid: 596501
-2024-08-08 00:58:55,293 - WARNING - Failed to fetch game details for appid: 2119422
-2024-08-08 00:58:55,325 - INFO - Fetched details for appid: 1941401
-2024-08-08 00:58:55,653 - WARNING - Failed to fetch game details for appid: 2156011
-2024-08-08 00:58:55,704 - WARNING - Failed to fetch game details for appid: 1825161
-2024-08-08 00:58:55,722 - WARNING - Failed to fetch game details for appid: 2170321
-2024-08-08 00:58:55,757 - WARNING - Failed to fetch game details for appid: 2177061
-2024-08-08 00:58:55,764 - WARNING - Failed to fetch game details for appid: 1383152
-2024-08-08 00:58:56,325 - INFO - Fetched details for appid: 2112761
-2024-08-08 00:58:57,326 - INFO - Fetched details for appid: 1820332
-2024-08-08 00:58:58,020 - WARNING - Failed to fetch game details for appid: 1312081
-2024-08-08 00:58:58,055 - WARNING - Failed to fetch game details for appid: 2292161
-2024-08-08 00:58:58,055 - WARNING - Failed to fetch game details for appid: 1375021
-2024-08-08 00:58:58,082 - WARNING - Failed to fetch game details for appid: 2121741
-2024-08-08 00:58:58,185 - WARNING - Failed to fetch game details for appid: 1496243
-2024-08-08 00:58:58,326 - INFO - Fetched details for appid: 662172
-2024-08-08 00:58:58,419 - WARNING - Failed to fetch game details for appid: 2216261
-2024-08-08 00:58:59,326 - INFO - Fetched details for appid: 1360782
-2024-08-08 00:59:00,327 - INFO - Fetched details for appid: 216938
-2024-08-08 00:59:00,599 - WARNING - Failed to fetch game details for appid: 2117650
-2024-08-08 00:59:01,327 - INFO - Fetched details for appid: 660130
-2024-08-08 00:59:02,328 - INFO - Fetched details for appid: 660010
-2024-08-08 00:59:03,328 - INFO - Fetched details for appid: 1275822
-2024-08-08 00:59:04,217 - WARNING - Failed to fetch game details for appid: 2117980
-2024-08-08 00:59:04,329 - INFO - Fetched details for appid: 1118314
-2024-08-08 00:59:04,698 - WARNING - Failed to fetch game details for appid: 2117990
-2024-08-08 00:59:05,330 - INFO - Fetched details for appid: 1343832
-2024-08-08 00:59:06,331 - INFO - Fetched details for appid: 1828741
-2024-08-08 00:59:07,331 - INFO - Fetched details for appid: 1927051
-2024-08-08 00:59:08,331 - INFO - Fetched details for appid: 1808781
-2024-08-08 00:59:09,332 - INFO - Fetched details for appid: 1496152
-2024-08-08 00:59:10,333 - INFO - Fetched details for appid: 1977312
-2024-08-08 00:59:11,334 - INFO - Fetched details for appid: 1983382
-2024-08-08 00:59:12,334 - INFO - Fetched details for appid: 1700632
-2024-08-08 00:59:12,647 - WARNING - Failed to fetch game details for appid: 2117460
-2024-08-08 00:59:13,124 - WARNING - Failed to fetch game details for appid: 2117480
-2024-08-08 00:59:13,335 - INFO - Fetched details for appid: 1567401
-2024-08-08 00:59:13,557 - WARNING - Failed to fetch game details for appid: 2117481
-2024-08-08 00:59:13,645 - WARNING - Failed to fetch game details for appid: 2117482
-2024-08-08 00:59:13,690 - WARNING - Failed to fetch game details for appid: 2117483
-2024-08-08 00:59:14,336 - INFO - Fetched details for appid: 1829051
-2024-08-08 00:59:15,336 - INFO - Fetched details for appid: 2092072
-2024-08-08 00:59:15,894 - WARNING - Failed to fetch game details for appid: 2116640
-2024-08-08 00:59:16,274 - WARNING - Failed to fetch game details for appid: 2116660
-2024-08-08 00:59:16,337 - INFO - Fetched details for appid: 596501
-2024-08-08 00:59:17,337 - INFO - Fetched details for appid: 2119422
-2024-08-08 00:59:18,338 - INFO - Fetched details for appid: 2156011
-2024-08-08 00:59:19,338 - INFO - Fetched details for appid: 1825161
-2024-08-08 00:59:20,339 - INFO - Fetched details for appid: 2170321
-2024-08-08 00:59:21,340 - INFO - Fetched details for appid: 2177061
-2024-08-08 00:59:21,912 - WARNING - Failed to fetch game details for appid: 2117030
-2024-08-08 00:59:22,340 - INFO - Fetched details for appid: 1383152
+2024-08-08 01:30:08,815 - INFO - Fetching app list...
+2024-08-08 01:30:09,318 - INFO - Fetched 208734 apps.
+2024-08-08 01:30:10,000 - WARNING - Failed to fetch game details for appid: 1941401
+2024-08-08 01:30:10,001 - WARNING - Failed to fetch game details for appid: 1825161
+2024-08-08 01:30:10,040 - WARNING - Failed to fetch game details for appid: 2170321
+2024-08-08 01:30:10,846 - WARNING - Failed to fetch game details for appid: 1897482
+2024-08-08 01:30:10,896 - WARNING - Failed to fetch game details for appid: 2112761
+2024-08-08 01:30:10,970 - WARNING - Failed to fetch game details for appid: 1829051
+2024-08-08 01:30:11,478 - INFO - Fetched details for appid: 2112761
+2024-08-08 01:30:11,574 - WARNING - Failed to fetch game details for appid: 1808781
+2024-08-08 01:30:11,625 - WARNING - Failed to fetch game details for appid: 1983382
+2024-08-08 01:30:11,784 - WARNING - Failed to fetch game details for appid: 1828741
+2024-08-08 01:30:12,023 - WARNING - Failed to fetch game details for appid: 216938
+2024-08-08 01:30:12,024 - WARNING - Failed to fetch game details for appid: 660010
+2024-08-08 01:30:12,188 - WARNING - Failed to fetch game details for appid: 660130
+2024-08-08 01:30:12,428 - WARNING - Failed to fetch game details for appid: 1118314
+2024-08-08 01:30:12,449 - WARNING - Failed to fetch game details for appid: 1275822
+2024-08-08 01:30:12,585 - WARNING - Failed to fetch game details for appid: 1343832
+2024-08-08 01:30:12,846 - WARNING - Failed to fetch game details for appid: 662172
+2024-08-08 01:30:12,861 - WARNING - Failed to fetch game details for appid: 1360782
+2024-08-08 01:30:12,981 - WARNING - Failed to fetch game details for appid: 1820332
+2024-08-08 01:30:13,172 - INFO - Fetched details for appid: 2170321
+2024-08-08 01:30:13,255 - WARNING - Failed to fetch game details for appid: 1927051
+2024-08-08 01:30:13,409 - WARNING - Failed to fetch game details for appid: 1977312
+2024-08-08 01:30:13,425 - WARNING - Failed to fetch game details for appid: 1496152
+2024-08-08 01:30:13,651 - WARNING - Failed to fetch game details for appid: 1700632
+2024-08-08 01:30:13,856 - WARNING - Failed to fetch game details for appid: 1567401
+2024-08-08 01:30:13,902 - WARNING - Failed to fetch game details for appid: 2016512
+2024-08-08 01:30:14,063 - WARNING - Failed to fetch game details for appid: 2092072
+2024-08-08 01:30:14,247 - WARNING - Failed to fetch game details for appid: 2119422
+2024-08-08 01:30:14,307 - WARNING - Failed to fetch game details for appid: 596501
+2024-08-08 01:30:14,504 - WARNING - Failed to fetch game details for appid: 2177061
+2024-08-08 01:30:14,644 - WARNING - Failed to fetch game details for appid: 2156011
+2024-08-08 01:30:14,756 - WARNING - Failed to fetch game details for appid: 1383152
+2024-08-08 01:30:14,944 - WARNING - Failed to fetch game details for appid: 1496243
+2024-08-08 01:30:15,054 - WARNING - Failed to fetch game details for appid: 2121741
+2024-08-08 01:30:15,114 - INFO - Fetched details for appid: 1829051
+2024-08-08 01:30:15,206 - WARNING - Failed to fetch game details for appid: 1375021
+2024-08-08 01:30:15,418 - WARNING - Failed to fetch game details for appid: 2292161
+2024-08-08 01:30:15,485 - WARNING - Failed to fetch game details for appid: 1312081
+2024-08-08 01:30:15,614 - WARNING - Failed to fetch game details for appid: 2216261
+2024-08-08 01:30:16,941 - INFO - Fetched details for appid: 1897482
+2024-08-08 01:30:16,990 - WARNING - Failed to fetch game details for appid: 1491240
+2024-08-08 01:30:17,471 - WARNING - Failed to fetch game details for appid: 1491310
+2024-08-08 01:30:19,326 - INFO - Fetched details for appid: 1941401
+2024-08-08 01:30:20,929 - INFO - Fetched details for appid: 1825161
+2024-08-08 01:30:22,590 - INFO - Fetched details for appid: 1808781
+2024-08-08 01:30:22,944 - WARNING - Failed to fetch game details for appid: 1491590
+2024-08-08 01:30:24,340 - INFO - Fetched details for appid: 1983382
+2024-08-08 01:30:26,737 - INFO - Fetched details for appid: 1828741
+2024-08-08 01:30:28,544 - INFO - Fetched details for appid: 216938
+2024-08-08 01:30:30,327 - INFO - Fetched details for appid: 660010
+2024-08-08 01:30:32,475 - INFO - Fetched details for appid: 660130
+2024-08-08 01:30:32,653 - WARNING - Failed to fetch game details for appid: 1491080
+2024-08-08 01:30:34,373 - INFO - Fetched details for appid: 1118314
+2024-08-08 01:30:36,150 - WARNING - Failed to fetch game details for appid: 1490230
+2024-08-08 01:30:36,868 - INFO - Fetched details for appid: 1275822
+2024-08-08 01:30:38,761 - INFO - Fetched details for appid: 1343832
+2024-08-08 01:30:40,559 - INFO - Fetched details for appid: 662172
+2024-08-08 01:30:42,008 - WARNING - Failed to fetch game details for appid: 1490560
+2024-08-08 01:30:42,956 - INFO - Fetched details for appid: 1360782
+2024-08-08 01:30:44,924 - INFO - Fetched details for appid: 1820332
+2024-08-08 01:30:47,267 - INFO - Fetched details for appid: 1927051
+2024-08-08 01:30:49,594 - INFO - Fetched details for appid: 1977312
+2024-08-08 01:30:51,108 - INFO - Fetched details for appid: 1496152
+2024-08-08 01:30:53,237 - WARNING - Failed to fetch game details for appid: 1490120
+2024-08-08 01:30:53,497 - INFO - Fetched details for appid: 1700632
+2024-08-08 01:30:54,148 - WARNING - Failed to fetch game details for appid: 1490150
+2024-08-08 01:30:54,148 - WARNING - Failed to fetch game details for appid: 1489260
+2024-08-08 01:30:55,301 - INFO - Fetched details for appid: 1567401
+2024-08-08 01:30:57,394 - INFO - Fetched details for appid: 2016512
+2024-08-08 01:30:59,227 - INFO - Fetched details for appid: 2092072
+2024-08-08 01:31:01,524 - INFO - Fetched details for appid: 2119422
+2024-08-08 01:31:03,825 - INFO - Fetched details for appid: 596501
+2024-08-08 01:31:04,514 - WARNING - Failed to fetch game details for appid: 1488990
+2024-08-08 01:31:06,183 - INFO - Fetched details for appid: 2177061
+2024-08-08 01:31:07,364 - WARNING - Rate limit exceeded for appid 1489150. Retrying after delay.
+2024-08-08 01:31:07,784 - WARNING - Rate limit exceeded for appid 1489160. Retrying after delay.
+2024-08-08 01:31:08,130 - INFO - Fetched details for appid: 2156011
+2024-08-08 01:31:08,227 - WARNING - Rate limit exceeded for appid 1489170. Retrying after delay.
+2024-08-08 01:31:09,994 - INFO - Fetched details for appid: 1383152
+2024-08-08 01:31:12,283 - INFO - Fetched details for appid: 1496243
+2024-08-08 01:31:14,312 - INFO - Fetched details for appid: 2121741
+2024-08-08 01:31:15,864 - INFO - Fetched details for appid: 1375021
+2024-08-08 01:31:17,492 - INFO - Fetched details for appid: 2292161
+2024-08-08 01:31:19,055 - INFO - Fetched details for appid: 1312081
+2024-08-08 01:31:20,564 - INFO - Fetched details for appid: 2216261
+2024-08-08 01:31:22,431 - INFO - Fetched details for appid: 1491170
+2024-08-08 01:31:24,095 - INFO - Fetched details for appid: 1491180
+2024-08-08 01:31:26,313 - INFO - Fetched details for appid: 1491190
+2024-08-08 01:31:28,673 - INFO - Fetched details for appid: 1491240
+2024-08-08 01:31:30,758 - INFO - Fetched details for appid: 1491200
+2024-08-08 01:31:32,803 - INFO - Fetched details for appid: 1491310
+2024-08-08 01:31:35,290 - INFO - Fetched details for appid: 1491280
+2024-08-08 01:31:37,108 - INFO - Fetched details for appid: 1491320
+2024-08-08 01:31:38,374 - WARNING - Rate limit exceeded for appid 1489150. Retrying after delay.
+2024-08-08 01:31:38,859 - INFO - Fetched details for appid: 1491340
+2024-08-08 01:31:39,490 - WARNING - Rate limit exceeded for appid 1489160. Retrying after delay.
+2024-08-08 01:31:39,514 - WARNING - Rate limit exceeded for appid 1489170. Retrying after delay.
+2024-08-08 01:31:41,018 - INFO - Fetched details for appid: 1491380
+2024-08-08 01:31:43,369 - INFO - Fetched details for appid: 1491390
+2024-08-08 01:31:45,705 - INFO - Fetched details for appid: 1491400
+2024-08-08 01:31:48,143 - INFO - Fetched details for appid: 1491420
+2024-08-08 01:31:50,371 - INFO - Fetched details for appid: 1491450
+2024-08-08 01:31:52,835 - INFO - Fetched details for appid: 1491460
+2024-08-08 01:31:54,627 - INFO - Fetched details for appid: 1491480
+2024-08-08 01:31:56,919 - INFO - Fetched details for appid: 1491490
+2024-08-08 01:31:58,553 - INFO - Fetched details for appid: 1491510
+2024-08-08 01:32:00,869 - INFO - Fetched details for appid: 1491500
+2024-08-08 01:32:03,026 - INFO - Fetched details for appid: 1491530
+2024-08-08 01:32:05,346 - INFO - Fetched details for appid: 1491550
+2024-08-08 01:32:06,926 - INFO - Fetched details for appid: 1491540
+2024-08-08 01:32:09,062 - INFO - Fetched details for appid: 1491590
+2024-08-08 01:32:11,536 - INFO - Fetched details for appid: 1491570
+2024-08-08 01:32:13,536 - INFO - Fetched details for appid: 1491580
+2024-08-08 01:32:15,695 - INFO - Fetched details for appid: 1491610
+2024-08-08 01:32:17,944 - INFO - Fetched details for appid: 1491620
+2024-08-08 01:32:19,775 - INFO - Fetched details for appid: 1491640
+2024-08-08 01:32:21,972 - INFO - Fetched details for appid: 1491650
+2024-08-08 01:32:23,502 - INFO - Fetched details for appid: 1491660
+2024-08-08 01:32:25,074 - INFO - Fetched details for appid: 1490660
+2024-08-08 01:32:27,024 - INFO - Fetched details for appid: 1490670
+2024-08-08 01:32:28,684 - INFO - Fetched details for appid: 1490700
+2024-08-08 01:32:30,867 - INFO - Fetched details for appid: 1490680
+2024-08-08 01:32:32,696 - INFO - Fetched details for appid: 1490720
+2024-08-08 01:32:34,236 - INFO - Fetched details for appid: 1490800
+2024-08-08 01:32:36,692 - INFO - Fetched details for appid: 1490790
+2024-08-08 01:32:38,814 - INFO - Fetched details for appid: 1490830
+2024-08-08 01:32:40,228 - WARNING - Rate limit exceeded for appid 1489150. Retrying after delay.
+2024-08-08 01:32:41,119 - INFO - Fetched details for appid: 1490840
+2024-08-08 01:32:41,143 - WARNING - Rate limit exceeded for appid 1489160. Retrying after delay.
+2024-08-08 01:32:41,320 - WARNING - Rate limit exceeded for appid 1489170. Retrying after delay.
+2024-08-08 01:32:42,851 - INFO - Fetched details for appid: 1490850
+2024-08-08 01:32:44,831 - INFO - Fetched details for appid: 1490860
+2024-08-08 01:32:47,167 - INFO - Fetched details for appid: 1490870
+2024-08-08 01:32:49,630 - INFO - Fetched details for appid: 1490880
+2024-08-08 01:32:52,062 - INFO - Fetched details for appid: 1490900
+2024-08-08 01:32:53,977 - INFO - Fetched details for appid: 1490890
+2024-08-08 01:32:56,250 - INFO - Fetched details for appid: 1490910
+2024-08-08 01:32:57,844 - INFO - Fetched details for appid: 1490930
+2024-08-08 01:32:59,671 - INFO - Fetched details for appid: 1490950
+2024-08-08 01:33:01,624 - INFO - Fetched details for appid: 1490970
+2024-08-08 01:33:04,091 - INFO - Fetched details for appid: 1490980
+2024-08-08 01:33:06,404 - INFO - Fetched details for appid: 1491040
+2024-08-08 01:33:08,096 - INFO - Fetched details for appid: 1491050
+2024-08-08 01:33:09,998 - INFO - Fetched details for appid: 1491080
+2024-08-08 01:33:11,824 - INFO - Saved batch 1
+2024-08-08 01:33:11,824 - INFO - Fetched details for appid: 1491070
+2024-08-08 01:33:14,197 - INFO - Fetched details for appid: 1491060
+2024-08-08 01:33:16,104 - INFO - Fetched details for appid: 1491090
+2024-08-08 01:33:18,199 - INFO - Fetched details for appid: 1491120
+2024-08-08 01:33:20,644 - INFO - Fetched details for appid: 1491100
+2024-08-08 01:33:22,934 - INFO - Fetched details for appid: 1491140
+2024-08-08 01:33:24,657 - INFO - Fetched details for appid: 1491150
+2024-08-08 01:33:26,512 - INFO - Fetched details for appid: 1491160
+2024-08-08 01:33:28,626 - INFO - Fetched details for appid: 1490180
+2024-08-08 01:33:30,797 - INFO - Fetched details for appid: 1490200
+2024-08-08 01:33:33,040 - INFO - Fetched details for appid: 1490190
+2024-08-08 01:33:34,686 - INFO - Fetched details for appid: 1490230
+2024-08-08 01:33:37,033 - INFO - Fetched details for appid: 1490220
+2024-08-08 01:33:38,823 - INFO - Fetched details for appid: 1490240
+2024-08-08 01:33:40,707 - INFO - Fetched details for appid: 1490250
+2024-08-08 01:33:42,529 - INFO - Fetched details for appid: 1490280
+2024-08-08 01:33:44,884 - INFO - Fetched details for appid: 1490290
+2024-08-08 01:33:46,452 - INFO - Fetched details for appid: 1490300
+2024-08-08 01:33:48,197 - INFO - Fetched details for appid: 1490320
+2024-08-08 01:33:49,715 - INFO - Fetched details for appid: 1490330
+2024-08-08 01:33:51,763 - INFO - Fetched details for appid: 1490340
+2024-08-08 01:33:54,009 - INFO - Fetched details for appid: 1490400
+2024-08-08 01:33:56,465 - INFO - Fetched details for appid: 1490410
+2024-08-08 01:33:58,356 - INFO - Fetched details for appid: 1490430
+2024-08-08 01:34:00,320 - INFO - Fetched details for appid: 1490450
+2024-08-08 01:34:02,664 - INFO - Fetched details for appid: 1490460
+2024-08-08 01:34:04,921 - INFO - Fetched details for appid: 1490490
+2024-08-08 01:34:06,435 - INFO - Fetched details for appid: 1490500
+2024-08-08 01:34:08,058 - INFO - Fetched details for appid: 1490520
+2024-08-08 01:34:09,705 - INFO - Fetched details for appid: 1490560
+2024-08-08 01:34:11,841 - INFO - Fetched details for appid: 1490540
+2024-08-08 01:34:14,237 - INFO - Fetched details for appid: 1490550
+2024-08-08 01:34:16,063 - INFO - Fetched details for appid: 1490580
+2024-08-08 01:34:17,585 - INFO - Fetched details for appid: 1490590
+2024-08-08 01:34:19,683 - INFO - Fetched details for appid: 1490600
+2024-08-08 01:34:21,662 - INFO - Fetched details for appid: 1490610
+2024-08-08 01:34:23,799 - INFO - Fetched details for appid: 1490620
+2024-08-08 01:34:25,691 - INFO - Fetched details for appid: 1489760
+2024-08-08 01:34:27,592 - INFO - Fetched details for appid: 1489780
+2024-08-08 01:34:29,445 - INFO - Fetched details for appid: 1489790
+2024-08-08 01:34:31,202 - INFO - Fetched details for appid: 1489800
+2024-08-08 01:34:32,988 - INFO - Fetched details for appid: 1489810
+2024-08-08 01:34:34,901 - INFO - Fetched details for appid: 1489830
+2024-08-08 01:34:37,171 - INFO - Fetched details for appid: 1489840
+2024-08-08 01:34:39,230 - INFO - Fetched details for appid: 1489850
+2024-08-08 01:34:41,337 - WARNING - Rate limit exceeded for appid 1489150. Retrying after delay.
+2024-08-08 01:34:41,694 - INFO - Fetched details for appid: 1489880
+2024-08-08 01:34:42,290 - WARNING - Rate limit exceeded for appid 1489160. Retrying after delay.
+2024-08-08 01:34:42,460 - WARNING - Rate limit exceeded for appid 1489170. Retrying after delay.
+2024-08-08 01:34:43,218 - INFO - Fetched details for appid: 1489900
+2024-08-08 01:34:45,215 - INFO - Fetched details for appid: 1490020
+2024-08-08 01:34:47,488 - INFO - Fetched details for appid: 1489980
+2024-08-08 01:34:49,817 - INFO - Fetched details for appid: 1490030
+2024-08-08 01:34:51,948 - INFO - Fetched details for appid: 1490040
+2024-08-08 01:34:53,526 - INFO - Fetched details for appid: 1490050
+2024-08-08 01:34:55,826 - INFO - Saved batch 2
+2024-08-08 01:34:55,827 - INFO - Fetched details for appid: 1490060
+2024-08-08 01:34:57,689 - INFO - Fetched details for appid: 1490070
+2024-08-08 01:34:59,921 - INFO - Fetched details for appid: 1490080
+2024-08-08 01:35:01,453 - INFO - Fetched details for appid: 1490090
+2024-08-08 01:35:03,477 - INFO - Fetched details for appid: 1490100
+2024-08-08 01:35:05,296 - INFO - Fetched details for appid: 1490110
+2024-08-08 01:35:07,168 - INFO - Fetched details for appid: 1490111
+2024-08-08 01:35:09,272 - INFO - Fetched details for appid: 1490112
+2024-08-08 01:35:11,343 - INFO - Fetched details for appid: 1490113
+2024-08-08 01:35:13,284 - INFO - Fetched details for appid: 1490114
+2024-08-08 01:35:15,640 - INFO - Fetched details for appid: 1490116
+2024-08-08 01:35:17,310 - INFO - Fetched details for appid: 1490115
+2024-08-08 01:35:19,455 - INFO - Fetched details for appid: 1490117
+2024-08-08 01:35:21,815 - INFO - Fetched details for appid: 1490120
+2024-08-08 01:35:24,042 - INFO - Fetched details for appid: 1490119
+2024-08-08 01:35:26,261 - INFO - Fetched details for appid: 1490130
+2024-08-08 01:35:28,111 - INFO - Fetched details for appid: 1490150
+2024-08-08 01:35:30,064 - INFO - Fetched details for appid: 1489260
+2024-08-08 01:35:32,166 - INFO - Fetched details for appid: 1490140
+2024-08-08 01:35:34,324 - INFO - Fetched details for appid: 1489270
+2024-08-08 01:35:36,241 - INFO - Fetched details for appid: 1489280
+2024-08-08 01:35:38,458 - INFO - Fetched details for appid: 1489290
+2024-08-08 01:35:39,991 - INFO - Fetched details for appid: 1489310
+2024-08-08 01:35:42,358 - INFO - Fetched details for appid: 1489300
+2024-08-08 01:35:44,221 - INFO - Fetched details for appid: 1489340
+2024-08-08 01:35:46,312 - INFO - Fetched details for appid: 1489380
+2024-08-08 01:35:48,444 - INFO - Fetched details for appid: 1489400
+2024-08-08 01:35:50,040 - INFO - Fetched details for appid: 1489390
+2024-08-08 01:35:51,890 - INFO - Fetched details for appid: 1489410
+2024-08-08 01:35:53,642 - INFO - Fetched details for appid: 1489460
+2024-08-08 01:35:55,687 - INFO - Fetched details for appid: 1489470
+2024-08-08 01:35:57,648 - INFO - Fetched details for appid: 1489480
+2024-08-08 01:35:59,395 - INFO - Fetched details for appid: 1489490
+2024-08-08 01:36:01,540 - INFO - Fetched details for appid: 1489500
+2024-08-08 01:36:04,005 - INFO - Fetched details for appid: 1489520
+2024-08-08 01:36:05,950 - INFO - Fetched details for appid: 1489530
+2024-08-08 01:36:08,333 - INFO - Fetched details for appid: 1489590
+2024-08-08 01:36:10,120 - INFO - Fetched details for appid: 1489620
+2024-08-08 01:36:12,513 - INFO - Fetched details for appid: 1489600
+2024-08-08 01:36:14,849 - INFO - Fetched details for appid: 1489640
+2024-08-08 01:36:16,409 - INFO - Fetched details for appid: 1489650
+2024-08-08 01:36:18,278 - INFO - Fetched details for appid: 1489680
+2024-08-08 01:36:20,623 - INFO - Fetched details for appid: 1489660
+2024-08-08 01:36:22,149 - INFO - Fetched details for appid: 1489750
+2024-08-08 01:36:24,049 - INFO - Fetched details for appid: 1488810
+2024-08-08 01:36:26,408 - INFO - Fetched details for appid: 1488820
+2024-08-08 01:36:28,594 - INFO - Fetched details for appid: 1488870
+2024-08-08 01:36:30,673 - INFO - Fetched details for appid: 1488860
+2024-08-08 01:36:32,552 - INFO - Fetched details for appid: 1488880
+2024-08-08 01:36:35,011 - INFO - Fetched details for appid: 1488990
+2024-08-08 01:36:37,486 - INFO - Fetched details for appid: 1488890
+2024-08-08 01:36:39,566 - INFO - Fetched details for appid: 1488960
+2024-08-08 01:36:42,066 - INFO - Fetched details for appid: 1489000
+2024-08-08 01:36:44,306 - INFO - Fetched details for appid: 1489010
+2024-08-08 01:36:45,861 - INFO - Saved batch 3
+2024-08-08 01:36:45,861 - INFO - Fetched details for appid: 1489020
+2024-08-08 01:36:48,214 - INFO - Fetched details for appid: 1489050
+2024-08-08 01:36:49,848 - INFO - Fetched details for appid: 1489110
+2024-08-08 01:36:51,650 - INFO - Fetched details for appid: 1489120
+2024-08-08 01:36:54,149 - INFO - Fetched details for appid: 1489130
+2024-08-08 01:36:56,026 - INFO - Fetched details for appid: 1489140
+2024-08-08 01:38:43,108 - INFO - Fetched details for appid: 1489150
+2024-08-08 01:38:45,543 - WARNING - Failed to fetch game details for appid: 1488460
+2024-08-08 01:38:45,599 - INFO - Fetched details for appid: 1489180
+2024-08-08 01:38:46,735 - WARNING - Failed to fetch game details for appid: 1488520
+2024-08-08 01:38:47,179 - INFO - Fetched details for appid: 1489170
+2024-08-08 01:38:48,764 - WARNING - Failed to fetch game details for appid: 1488630
+2024-08-08 01:38:49,649 - INFO - Fetched details for appid: 1489160
+2024-08-08 01:38:51,324 - INFO - Fetched details for appid: 1489220
+2024-08-08 01:38:52,990 - INFO - Fetched details for appid: 1488360
+2024-08-08 01:38:54,898 - INFO - Fetched details for appid: 1488400
+2024-08-08 01:38:57,171 - INFO - Fetched details for appid: 1488460
+2024-08-08 01:38:59,622 - INFO - Fetched details for appid: 1488430
+2024-08-08 01:39:01,611 - INFO - Fetched details for appid: 1488440
+2024-08-08 01:39:03,536 - INFO - Fetched details for appid: 1488490
+2024-08-08 01:39:05,174 - INFO - Fetched details for appid: 1488500
+2024-08-08 01:39:06,910 - WARNING - Failed to fetch game details for appid: 1487660
+2024-08-08 01:39:06,960 - INFO - Fetched details for appid: 1488520
+2024-08-08 01:39:08,765 - INFO - Fetched details for appid: 1488510
+2024-08-08 01:39:10,562 - INFO - Fetched details for appid: 1488530
+2024-08-08 01:39:12,627 - INFO - Fetched details for appid: 1488540
+2024-08-08 01:39:14,356 - INFO - Fetched details for appid: 1488560
+2024-08-08 01:39:15,695 - WARNING - Failed to fetch game details for appid: 1487110
+2024-08-08 01:39:16,574 - INFO - Fetched details for appid: 1488580
+2024-08-08 01:39:18,973 - INFO - Fetched details for appid: 1488581
+2024-08-08 01:39:20,146 - WARNING - Failed to fetch game details for appid: 1487290
+2024-08-08 01:39:20,605 - INFO - Fetched details for appid: 1488600
+2024-08-08 01:39:22,356 - INFO - Fetched details for appid: 1488630
+2024-08-08 01:39:24,087 - INFO - Fetched details for appid: 1488620
+2024-08-08 01:39:24,364 - WARNING - Failed to fetch game details for appid: 1486550
+2024-08-08 01:39:26,189 - INFO - Fetched details for appid: 1488640
+2024-08-08 01:39:26,370 - WARNING - Failed to fetch game details for appid: 1486640
+2024-08-08 01:39:26,405 - WARNING - Failed to fetch game details for appid: 1486650
+2024-08-08 01:39:28,338 - INFO - Fetched details for appid: 1488650
+2024-08-08 01:39:28,430 - WARNING - Failed to fetch game details for appid: 1486740
+2024-08-08 01:39:30,245 - INFO - Fetched details for appid: 1488670
+2024-08-08 01:39:32,183 - INFO - Fetched details for appid: 1488700
+2024-08-08 01:39:33,961 - INFO - Fetched details for appid: 1488720
+2024-08-08 01:39:34,714 - WARNING - Failed to fetch game details for appid: 1486100
+2024-08-08 01:39:35,600 - INFO - Fetched details for appid: 1488730
+2024-08-08 01:39:37,533 - INFO - Fetched details for appid: 1488740
+2024-08-08 01:39:37,607 - WARNING - Failed to fetch game details for appid: 1486260
+2024-08-08 01:39:38,780 - WARNING - Rate limit exceeded for appid 1486310. Retrying after delay.
+2024-08-08 01:39:38,884 - WARNING - Rate limit exceeded for appid 1486311. Retrying after delay.
+2024-08-08 01:39:38,915 - WARNING - Rate limit exceeded for appid 1486312. Retrying after delay.
+2024-08-08 01:39:39,991 - INFO - Fetched details for appid: 1488760
+2024-08-08 01:39:41,624 - INFO - Fetched details for appid: 1488750
+2024-08-08 01:39:43,774 - INFO - Fetched details for appid: 1488780
+2024-08-08 01:39:46,149 - INFO - Fetched details for appid: 1487860
+2024-08-08 01:39:48,103 - INFO - Fetched details for appid: 1487870
+2024-08-08 01:39:49,801 - INFO - Fetched details for appid: 1487900
+2024-08-08 01:39:51,676 - INFO - Fetched details for appid: 1487970
+2024-08-08 01:39:54,030 - INFO - Fetched details for appid: 1487940
+2024-08-08 01:39:55,584 - INFO - Fetched details for appid: 1487990
+2024-08-08 01:39:57,903 - INFO - Fetched details for appid: 1488000
+2024-08-08 01:39:59,671 - INFO - Fetched details for appid: 1488050
+2024-08-08 01:40:01,503 - INFO - Fetched details for appid: 1488070
+2024-08-08 01:40:03,071 - INFO - Fetched details for appid: 1488060
+2024-08-08 01:40:04,767 - INFO - Fetched details for appid: 1488080
+2024-08-08 01:40:06,461 - INFO - Fetched details for appid: 1488100
+2024-08-08 01:40:08,647 - INFO - Fetched details for appid: 1488120
+2024-08-08 01:40:09,871 - WARNING - Rate limit exceeded for appid 1486311. Retrying after delay.
+2024-08-08 01:40:09,993 - WARNING - Rate limit exceeded for appid 1486310. Retrying after delay.
+2024-08-08 01:40:10,566 - INFO - Fetched details for appid: 1488110
+2024-08-08 01:40:10,596 - WARNING - Rate limit exceeded for appid 1486312. Retrying after delay.
+2024-08-08 01:40:12,716 - INFO - Fetched details for appid: 1488150
+2024-08-08 01:40:14,893 - INFO - Saved batch 4
+2024-08-08 01:40:14,893 - INFO - Fetched details for appid: 1488160
+2024-08-08 01:40:16,675 - INFO - Fetched details for appid: 1488170
+2024-08-08 01:40:18,304 - INFO - Fetched details for appid: 1488210
+2024-08-08 01:40:20,277 - INFO - Fetched details for appid: 1488200
+2024-08-08 01:40:21,796 - INFO - Fetched details for appid: 1488220
+2024-08-08 01:40:23,448 - INFO - Fetched details for appid: 1488230
+2024-08-08 01:40:25,333 - INFO - Fetched details for appid: 1488240
+2024-08-08 01:40:26,935 - INFO - Fetched details for appid: 1488250
+2024-08-08 01:40:28,538 - INFO - Fetched details for appid: 1488270
+2024-08-08 01:40:30,609 - INFO - Fetched details for appid: 1488260
+2024-08-08 01:40:32,301 - INFO - Fetched details for appid: 1488280
+2024-08-08 01:40:34,569 - INFO - Fetched details for appid: 1488300
+2024-08-08 01:40:36,360 - INFO - Fetched details for appid: 1488310
+2024-08-08 01:40:38,098 - INFO - Fetched details for appid: 1488320
+2024-08-08 01:40:39,984 - INFO - Fetched details for appid: 1488330
+2024-08-08 01:40:42,187 - INFO - Fetched details for appid: 1487360
+2024-08-08 01:40:43,721 - INFO - Fetched details for appid: 1487380
+2024-08-08 01:40:45,349 - INFO - Fetched details for appid: 1487410
+2024-08-08 01:40:47,468 - INFO - Fetched details for appid: 1487390
+2024-08-08 01:40:49,493 - INFO - Fetched details for appid: 1487420
+2024-08-08 01:40:51,250 - INFO - Fetched details for appid: 1487430
+2024-08-08 01:40:53,211 - INFO - Fetched details for appid: 1487440
+2024-08-08 01:40:55,318 - INFO - Fetched details for appid: 1487450
+2024-08-08 01:40:56,981 - INFO - Fetched details for appid: 1487470
+2024-08-08 01:40:59,384 - INFO - Fetched details for appid: 1487460
+2024-08-08 01:41:01,558 - INFO - Fetched details for appid: 1487480
+2024-08-08 01:41:03,890 - INFO - Fetched details for appid: 1487500
+2024-08-08 01:41:06,270 - INFO - Fetched details for appid: 1487490
+2024-08-08 01:41:07,795 - INFO - Fetched details for appid: 1487510
+2024-08-08 01:41:09,832 - INFO - Fetched details for appid: 1487520
+2024-08-08 01:41:10,930 - WARNING - Rate limit exceeded for appid 1486310. Retrying after delay.
+2024-08-08 01:41:11,010 - WARNING - Rate limit exceeded for appid 1486311. Retrying after delay.
+2024-08-08 01:41:11,951 - WARNING - Rate limit exceeded for appid 1486312. Retrying after delay.
+2024-08-08 01:41:12,302 - INFO - Fetched details for appid: 1487530
+2024-08-08 01:41:14,742 - INFO - Fetched details for appid: 1487540
+2024-08-08 01:41:16,427 - INFO - Fetched details for appid: 1487560
+2024-08-08 01:41:18,137 - INFO - Fetched details for appid: 1487570
+2024-08-08 01:41:20,497 - INFO - Fetched details for appid: 1487590
+2024-08-08 01:41:22,977 - INFO - Fetched details for appid: 1487610
+2024-08-08 01:41:24,792 - INFO - Fetched details for appid: 1487630
+2024-08-08 01:41:27,098 - INFO - Fetched details for appid: 1487660
+2024-08-08 01:41:29,223 - INFO - Fetched details for appid: 1487640
+2024-08-08 01:41:31,376 - INFO - Fetched details for appid: 1487650
+2024-08-08 01:41:33,194 - INFO - Fetched details for appid: 1487670
+2024-08-08 01:41:35,106 - INFO - Fetched details for appid: 1487680
+2024-08-08 01:41:36,915 - INFO - Fetched details for appid: 1487710
+2024-08-08 01:41:39,357 - INFO - Fetched details for appid: 1487730
+2024-08-08 01:41:41,360 - INFO - Fetched details for appid: 1487740
+2024-08-08 01:41:43,436 - INFO - Fetched details for appid: 1487750
+2024-08-08 01:41:45,015 - INFO - Fetched details for appid: 1487760
+2024-08-08 01:41:46,602 - INFO - Fetched details for appid: 1487770
+2024-08-08 01:41:48,331 - INFO - Fetched details for appid: 1487780
+2024-08-08 01:41:50,487 - INFO - Fetched details for appid: 1487790
+2024-08-08 01:41:52,478 - INFO - Fetched details for appid: 1487800
+2024-08-08 01:41:54,394 - INFO - Saved batch 5
+2024-08-08 01:41:54,394 - INFO - Fetched details for appid: 1487840
+2024-08-08 01:41:56,792 - INFO - Fetched details for appid: 1486870
+2024-08-08 01:41:58,808 - INFO - Fetched details for appid: 1486890
+2024-08-08 01:42:00,514 - INFO - Fetched details for appid: 1486910
+2024-08-08 01:42:02,625 - INFO - Fetched details for appid: 1486900
+2024-08-08 01:42:04,542 - INFO - Fetched details for appid: 1486950
+2024-08-08 01:42:06,570 - INFO - Fetched details for appid: 1486970
+2024-08-08 01:42:08,337 - INFO - Fetched details for appid: 1486980
+2024-08-08 01:42:10,797 - INFO - Fetched details for appid: 1486990
+2024-08-08 01:42:12,445 - INFO - Fetched details for appid: 1487030
+2024-08-08 01:42:14,692 - INFO - Fetched details for appid: 1487000
+2024-08-08 01:42:16,399 - INFO - Fetched details for appid: 1487040
+2024-08-08 01:42:18,683 - INFO - Fetched details for appid: 1487060
+2024-08-08 01:42:20,337 - INFO - Fetched details for appid: 1487070
+2024-08-08 01:42:22,298 - INFO - Fetched details for appid: 1487080
+2024-08-08 01:42:24,728 - INFO - Fetched details for appid: 1487090
+2024-08-08 01:42:26,571 - INFO - Fetched details for appid: 1487091
+2024-08-08 01:42:28,864 - INFO - Fetched details for appid: 1487110
+2024-08-08 01:42:31,079 - INFO - Fetched details for appid: 1487100
+2024-08-08 01:42:32,595 - INFO - Fetched details for appid: 1487120
+2024-08-08 01:42:35,046 - INFO - Fetched details for appid: 1487130
+2024-08-08 01:42:37,140 - INFO - Fetched details for appid: 1487140
+2024-08-08 01:42:39,495 - INFO - Fetched details for appid: 1487160
+2024-08-08 01:42:41,787 - INFO - Fetched details for appid: 1487180
+2024-08-08 01:42:44,206 - INFO - Fetched details for appid: 1487190
+2024-08-08 01:42:46,226 - INFO - Fetched details for appid: 1487200
+2024-08-08 01:42:48,384 - INFO - Fetched details for appid: 1487210
+2024-08-08 01:42:50,061 - INFO - Fetched details for appid: 1487220
+2024-08-08 01:42:52,326 - INFO - Fetched details for appid: 1487230
+2024-08-08 01:42:54,598 - INFO - Fetched details for appid: 1487250
+2024-08-08 01:42:56,288 - INFO - Fetched details for appid: 1487240
+2024-08-08 01:42:57,983 - INFO - Fetched details for appid: 1487260
+2024-08-08 01:42:59,675 - INFO - Fetched details for appid: 1487290
+2024-08-08 01:43:01,372 - INFO - Fetched details for appid: 1487270
+2024-08-08 01:43:02,919 - INFO - Fetched details for appid: 1487280
+2024-08-08 01:43:05,095 - INFO - Fetched details for appid: 1487310
+2024-08-08 01:43:07,460 - INFO - Fetched details for appid: 1487300
+2024-08-08 01:43:09,063 - INFO - Fetched details for appid: 1487320
+2024-08-08 01:43:11,409 - INFO - Fetched details for appid: 1487340
+2024-08-08 01:43:11,876 - WARNING - Rate limit exceeded for appid 1486310. Retrying after delay.
+2024-08-08 01:43:12,187 - WARNING - Rate limit exceeded for appid 1486311. Retrying after delay.
+2024-08-08 01:43:13,011 - WARNING - Rate limit exceeded for appid 1486312. Retrying after delay.
+2024-08-08 01:43:13,770 - INFO - Fetched details for appid: 1486440
+2024-08-08 01:43:15,385 - INFO - Fetched details for appid: 1486460
+2024-08-08 01:43:17,062 - INFO - Fetched details for appid: 1486470
+2024-08-08 01:43:19,004 - INFO - Fetched details for appid: 1486471
+2024-08-08 01:43:20,617 - INFO - Fetched details for appid: 1486480
+2024-08-08 01:43:22,517 - INFO - Fetched details for appid: 1486490
+2024-08-08 01:43:24,045 - INFO - Fetched details for appid: 1486500
+2024-08-08 01:43:26,138 - INFO - Fetched details for appid: 1486510
+2024-08-08 01:43:27,831 - INFO - Fetched details for appid: 1486520
+2024-08-08 01:43:29,676 - INFO - Fetched details for appid: 1486540
+2024-08-08 01:43:31,486 - INFO - Fetched details for appid: 1486550
+2024-08-08 01:43:33,590 - INFO - Fetched details for appid: 1486560
+2024-08-08 01:43:35,853 - INFO - Fetched details for appid: 1486570
+2024-08-08 01:43:37,983 - INFO - Fetched details for appid: 1486580
+2024-08-08 01:43:39,800 - INFO - Saved batch 6
+2024-08-08 01:43:39,800 - INFO - Fetched details for appid: 1486600
+2024-08-08 01:43:41,463 - INFO - Fetched details for appid: 1486620
+2024-08-08 01:43:43,825 - INFO - Fetched details for appid: 1486590
+2024-08-08 01:43:45,700 - INFO - Fetched details for appid: 1486640
+2024-08-08 01:43:47,853 - INFO - Fetched details for appid: 1486650
+2024-08-08 01:43:50,319 - INFO - Fetched details for appid: 1486660
+2024-08-08 01:43:52,158 - INFO - Fetched details for appid: 1486690
+2024-08-08 01:43:54,371 - INFO - Fetched details for appid: 1486670
+2024-08-08 01:43:56,802 - INFO - Fetched details for appid: 1486700
+2024-08-08 01:43:58,700 - INFO - Fetched details for appid: 1486720
+2024-08-08 01:44:01,073 - INFO - Fetched details for appid: 1486710
+2024-08-08 01:44:03,031 - INFO - Fetched details for appid: 1486740
+2024-08-08 01:44:05,318 - INFO - Fetched details for appid: 1486730
+2024-08-08 01:44:07,611 - INFO - Fetched details for appid: 1486750
+2024-08-08 01:44:09,342 - INFO - Fetched details for appid: 1486780
+2024-08-08 01:44:11,065 - INFO - Fetched details for appid: 1486770
+2024-08-08 01:44:13,525 - INFO - Fetched details for appid: 1486790
+2024-08-08 01:44:15,120 - INFO - Fetched details for appid: 1486810
+2024-08-08 01:44:16,770 - INFO - Fetched details for appid: 1486800
+2024-08-08 01:44:19,075 - INFO - Fetched details for appid: 1486830
+2024-08-08 01:44:21,280 - INFO - Fetched details for appid: 1486832
+2024-08-08 01:44:23,765 - INFO - Fetched details for appid: 1486831
+2024-08-08 01:44:25,392 - INFO - Fetched details for appid: 1486833
+2024-08-08 01:44:27,817 - INFO - Fetched details for appid: 1486834
+2024-08-08 01:44:30,250 - INFO - Fetched details for appid: 1486835
+2024-08-08 01:44:32,563 - INFO - Fetched details for appid: 1486836
+2024-08-08 01:44:34,293 - INFO - Fetched details for appid: 1486860
+2024-08-08 01:44:35,942 - INFO - Fetched details for appid: 1486840
+2024-08-08 01:44:38,226 - INFO - Fetched details for appid: 1486020
+2024-08-08 01:44:40,593 - INFO - Fetched details for appid: 1486030
+2024-08-08 01:44:42,384 - INFO - Fetched details for appid: 1486040
+2024-08-08 01:44:44,155 - INFO - Fetched details for appid: 1486050
+2024-08-08 01:44:45,911 - INFO - Fetched details for appid: 1486060
+2024-08-08 01:44:47,798 - INFO - Fetched details for appid: 1486070
+2024-08-08 01:44:50,076 - INFO - Fetched details for appid: 1486100
+2024-08-08 01:44:52,491 - INFO - Fetched details for appid: 1486080
+2024-08-08 01:44:54,868 - INFO - Fetched details for appid: 1486120
+2024-08-08 01:44:57,175 - INFO - Fetched details for appid: 1486140
+2024-08-08 01:44:59,312 - INFO - Fetched details for appid: 1486150
+2024-08-08 01:45:00,992 - INFO - Fetched details for appid: 1486160
+2024-08-08 01:45:03,033 - INFO - Fetched details for appid: 1486180
+2024-08-08 01:45:04,882 - INFO - Fetched details for appid: 1486190
+2024-08-08 01:45:06,455 - INFO - Fetched details for appid: 1486200
+2024-08-08 01:45:08,042 - INFO - Fetched details for appid: 1486220
+2024-08-08 01:45:10,397 - INFO - Fetched details for appid: 1486260
+2024-08-08 01:45:12,092 - INFO - Fetched details for appid: 1486240
+2024-08-08 01:45:14,549 - INFO - Fetched details for appid: 1486241
+2024-08-08 01:45:16,535 - INFO - Fetched details for appid: 1486270
+2024-08-08 01:45:18,480 - INFO - Fetched details for appid: 1486280
+2024-08-08 01:45:20,799 - INFO - Fetched details for appid: 1486300
