@@ -1,52 +1,53 @@
 import streamlit as st
-import pandas as pd
 import numpy as np
-import torch
+import pandas as pd
 from transformers import BertTokenizer, BertModel
-import pickle
+from sklearn.metrics.pairwise import cosine_similarity
+import torch
 
-# Load data and model
-@st.cache(allow_output_mutation=True)
+# Define a function to load data
+@st.cache_data
 def load_data():
-    item_feature_matrix = np.load('item_feature_matrix.npy', allow_pickle=True)
-    with open('user_feature_matrix.pkl', 'rb') as f:
-        user_feature_matrix = pickle.load(f)
-    return item_feature_matrix, user_feature_matrix
+    item_feature_matrix = np.load('item_feature_matrix.npy')
+    user_feature_matrix = np.load('user_feature_matrix.npy')
+    games_df = pd.read_csv('games_df.csv')
+    return item_feature_matrix, user_feature_matrix, games_df
 
-@st.cache_resource
-def load_model():
+# Function to get text embedding
+def get_embedding(text):
     tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
     model = BertModel.from_pretrained('bert-base-uncased')
-    return tokenizer, model
-
-item_feature_matrix, user_feature_matrix = load_data()
-tokenizer, model = load_model()
-
-# Function to get embeddings
-def get_embedding(text):
     inputs = tokenizer(text, return_tensors='pt', truncation=True, padding=True, max_length=512)
     outputs = model(**inputs)
     return outputs.last_hidden_state.mean(dim=1).cpu().detach().numpy()
 
-# Streamlit UI
-st.title("Game Recommendation System")
-st.write("Enter a description of the type of game you want to play:")
+# Function to recommend games
+def recommend_games(user_input, item_feature_matrix, games_df):
+    user_embedding = get_embedding(user_input)
+    similarities = cosine_similarity(user_embedding, item_feature_matrix)
+    top_n = 5
+    recommendations = similarities[0].argsort()[-top_n:][::-1]
+    return recommendations
 
-user_input = st.text_area("Game description")
+# Streamlit app
+st.title("Steam Game Recommendation System")
+
+# Load data
+item_feature_matrix, user_feature_matrix, games_df = load_data()
+
+# User input
+user_input = st.text_area("Enter a description of the type of game you want to play:")
 
 if st.button("Get Recommendations"):
-    if user_input:
-        user_embedding = get_embedding(user_input)
-        similarities = np.dot(user_embedding, item_feature_matrix.T)
-        top_n = 5
-        recommendations = np.argsort(similarities[0])[-top_n:][::-1]
-
-        st.write("Top 5 Recommended Games:")
-        for idx in recommendations:
-            game_info = item_feature_matrix.iloc[idx]
-            st.write(f"**{game_info['name']}**")
-            st.write(f"Description: {game_info['description']}")
-            st.write(f"Price: {game_info['price']}")
-            st.write("---")
-    else:
-        st.write("Please enter a game description.")
+    recommendations = recommend_games(user_input, item_feature_matrix, games_df)
+    st.write("Top 5 Recommended Games:")
+    for idx in recommendations:
+        game_info = games_df[games_df['appid'] == idx].iloc[0]
+        st.write(f"Name: {game_info['name']}")
+        st.write(f"Description: {game_info['description']}")
+        st.write(f"Price: {game_info['price']}")
+        st.write(f"Release Date: {game_info['release_date']}")
+        st.write(f"Developer: {game_info['developer']}")
+        st.write(f"Publisher: {game_info['publisher']}")
+        st.write(f"Tags: {game_info['tags']}")
+        st.write("---")
