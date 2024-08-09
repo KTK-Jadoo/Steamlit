@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 from transformers import BertTokenizer, BertModel
-import torch
 from sklearn.metrics.pairwise import cosine_similarity
 import pandas as pd
 
@@ -12,8 +11,8 @@ bert_model = BertModel.from_pretrained('bert-base-uncased')
 @st.cache_data
 def load_data():
     games_df = pd.read_csv('filtered_games_df.csv')
-    reduced_item_feature_matrix_3d = np.load('reduced_item_feature_matrix_3d.npy')
-    return games_df, reduced_item_feature_matrix_3d
+    reduced_item_feature_matrix = np.load('reduced_item_feature_matrix.npy')
+    return games_df, reduced_item_feature_matrix
 
 # Function to get text embedding
 def get_embedding(text):
@@ -24,13 +23,13 @@ def get_embedding(text):
 # Recommendation function
 def recommend_games(user_input, item_feature_matrix, games_df):
     user_embedding = get_embedding(user_input)
-    similarities = cosine_similarity(user_embedding, reduced_item_feature_matrix_3d)
+    similarities = cosine_similarity(user_embedding, reduced_item_feature_matrix)
     top_n = 5
     recommendations = similarities[0].argsort()[-top_n:][::-1]
     return recommendations
 
 # Load data
-games_df, reduced_item_feature_matrix_3d = load_data()
+games_df, reduced_item_feature_matrix = load_data()
 
 # Streamlit app
 st.markdown("<h1 class='title' style='text-align: center;'>Steam Game Recommendation System</h1>", unsafe_allow_html=True)
@@ -43,7 +42,7 @@ st.write("<p style='text-align: center;'>Hit Enter to get your recommendations!<
 
 if user_input:
     st.markdown("<h3 class='subheader' style='text-align: center;'>Top 5 Recommended Games</h3>", unsafe_allow_html=True)
-    recommendations = recommend_games(user_input, reduced_item_feature_matrix_3d, games_df)
+    recommendations = recommend_games(user_input, reduced_item_feature_matrix, games_df)
     for idx in recommendations:
         game_info = games_df.iloc[idx]
         st.image(f"https://steamcdn-a.akamaihd.net/steam/apps/{game_info['appid']}/header.jpg", width=300)
