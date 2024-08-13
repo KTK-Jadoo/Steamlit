@@ -1,80 +1,90 @@
-# Steam-lit: Word Embeddings and LDA-based NLP Recommendation System
+Sure! Here’s how you can structure the entire README using standard text and code blocks for better readability on GitHub.
 
-Welcome to **Steam-lit**, a personalized game recommendation system that leverages Natural Language Processing (NLP) techniques such as BERT word embeddings and Latent Dirichlet Allocation (LDA) for topic modeling to suggest games based on user descriptions.
+---
+
+# Steam-lit: Word Embeddings and LDA-Based NLP Recommendation System
+
+This project demonstrates the creation of a Steam game recommendation system using a combination of BERT word embeddings and Latent Dirichlet Allocation (LDA) for topic modeling. The system recommends games based on user input descriptions.
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Mathematical Foundations](#mathematical-foundations)
-  - [BERT Word Embeddings](#bert-word-embeddings)
-  - [Latent Dirichlet Allocation (LDA)](#latent-dirichlet-allocation-lda)
-  - [Cosine Similarity](#cosine-similarity)
-- [Data](#data)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
+- [Overview](#overview)
+- [Technologies Used](#technologies-used)
+- [Data Extraction](#data-extraction)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Latent Dirichlet Allocation (LDA)](#latent-dirichlet-allocation-lda)
+- [BERT Embeddings](#bert-embeddings)
+- [Cosine Similarity](#cosine-similarity)
+- [Implementation](#implementation)
+- [Conclusion](#conclusion)
 
+## Overview
 
-## Introduction
-Steam-lit is an NLP-based game recommendation system that combines the power of BERT for capturing semantic meaning from text with LDA to discover latent topics in game reviews. By merging these features, the system can accurately recommend games based on user-inputted descriptions.
+The Steam-lit project involves building a recommendation system that combines the power of topic modeling through LDA and contextual word embeddings via BERT to provide game recommendations based on user-provided text descriptions.
 
-## Features
-- **BERT Word Embeddings**: Utilizes pre-trained BERT models to convert user input into dense vectors that capture semantic meanings.
-- **LDA Topic Modeling**: Discovers underlying topics from user reviews to enrich the feature set for each game.
-- **Cosine Similarity**: Calculates the similarity between user input and game descriptions to generate top recommendations.
-- **Streamlit Interface**: A user-friendly web app to input descriptions and receive game recommendations.
+## Technologies Used
 
-## Mathematical Foundations
+- **Python**
+- **Streamlit** - For the web interface
+- **Pandas** - Data manipulation and analysis
+- **NumPy** - Numerical operations
+- **scikit-learn** - Machine learning algorithms and utilities
+- **Hugging Face Transformers** - For BERT embeddings
+- **Latent Dirichlet Allocation (LDA)** - For topic modeling
+- **SQLite** - For data storage
 
-### BERT Word Embeddings
-BERT (Bidirectional Encoder Representations from Transformers) is a deep learning model that generates context-aware word embeddings. Unlike traditional word embeddings (e.g., Word2Vec, GloVe), BERT considers the entire sentence, making it effective for understanding nuances in language.
+## Data Extraction
 
-**Mathematics**: 
-- For a given sentence \(S\), BERT generates an embedding \(E_S\) by encoding the sentence using a Transformer architecture. The final output is a dense vector where each dimension captures semantic information of the sentence.
-- The word embeddings are calculated by averaging the hidden states from the last layer of BERT.
+The data for this project was extracted using the Steam Web API, allowing us to retrieve details about various games, including descriptions, reviews, and metadata.
 
-### Latent Dirichlet Allocation (LDA)
-LDA is a generative probabilistic model used to discover latent topics in a collection of documents. Each document is represented as a mixture of topics, and each topic is represented as a mixture of words.
+## Exploratory Data Analysis (EDA)
 
-**Mathematics**:
-- For each document \(d\) in the corpus, LDA assumes the following generative process:
-  1. Choose \( \theta_d \sim \text{Dirichlet}(\alpha) \)
-  2. For each word \(w_i\) in \(d\):
-     - Choose a topic \(z_i \sim \text{Multinomial}(\theta_d)\)
-     - Choose a word \(w_i\) from \(P(w_i|z_i,\beta)\), a multinomial probability conditioned on the topic \(z_i\).
-- Here, \( \alpha \) and \( \beta \) are Dirichlet priors, and the model learns the topic distribution \( \theta_d \) and word distribution \( \phi_k \) for each topic \( k \).
+Before building the recommendation system, the data was thoroughly cleaned and analyzed. This involved:
+- Filtering out non-game items like soundtracks, DLCs, and demos.
+- Analyzing the distribution of game tags, genres, and user reviews.
+- Visualizing the relationships between different features to understand the dataset better.
 
-### Cosine Similarity
-Cosine similarity measures the cosine of the angle between two non-zero vectors in an inner product space. It is often used to measure document similarity in text analysis.
+## Latent Dirichlet Allocation (LDA)
+
+LDA is used in this project to identify topics within the user reviews.
 
 **Mathematics**:
-- The cosine similarity between two vectors \( A \) and \( B \) is given by:
-  \[
-  \text{cosine\_similarity}(A, B) = \frac{A \cdot B}{\|A\| \|B\|}
-  \]
-- In this project, cosine similarity is used to compute the similarity between the user's input embedding and the game description embeddings.
 
-## Data
+- LDA assumes that each document (in our case, a game review) is a mixture of topics and that each word in the document is attributable to one of the document's topics.
+- The LDA model produces a matrix of topic distributions for each review, which is then aggregated to form a topic distribution for each game.
 
-The data for this project was sourced from the Steam Web API, which provides game details and user reviews. The data processing involves:
-- Removing irrelevant entries (e.g., soundtracks, DLCs).
-- Tokenizing and cleaning review texts.
-- Generating embeddings and topic distributions for games.
+## BERT Embeddings
 
-## Project Structure
+BERT (Bidirectional Encoder Representations from Transformers) is used to create embeddings for game descriptions.
 
-```plaintext
-steam-lit/
-│
-├── data/                     # Contains the SQLite database and CSV files
-├── models/                   # Contains the pre-trained models and feature matrices
-├── notebooks/                # Jupyter notebooks for development and testing
-├── streamlit_app.py          # Main Streamlit app script
-├── requirements.txt          # Python dependencies
-├── README.md                 # Project documentation
-└── LICENSE                   # License file
-```
+**Process**:
 
-## Contributing
+- Each game description is tokenized using BERT's tokenizer, then passed through the BERT model to obtain a dense vector representation (embedding).
+- These embeddings capture the semantic meaning of the game descriptions.
 
-Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to fork the repository and create a pull request.
+## Cosine Similarity
 
+Cosine similarity is used to compare the user input with the game embeddings to find the most similar games.
+
+**Mathematics**:
+
+- The cosine similarity between two vectors `A` and `B` is calculated as:
+
+  ```
+  cosine_similarity(A, B) = (A · B) / (||A|| ||B||)
+  ```
+
+- In this project, cosine similarity is used to compute the similarity between the user's input embedding and the combined game description and topic embeddings.
+
+## Implementation
+
+The project was implemented in several key steps:
+
+1. **Data Preparation**: Data was extracted from the Steam API, cleaned, and stored in an SQLite database.
+2. **Topic Modeling with LDA**: LDA was applied to game reviews to extract topics, which were then associated with each game.
+3. **Word Embeddings with BERT**: BERT was used to convert game descriptions into embeddings.
+4. **Combining Features**: The LDA topic matrix and BERT embeddings were combined to form a comprehensive feature matrix for each game.
+5. **Recommendation System**: The cosine similarity between user input and the game feature matrix was calculated to provide the top game recommendations.
+
+## Conclusion
+
+The Steam-lit project showcases the power of combining modern NLP techniques like BERT embeddings with classical topic modeling approaches such as LDA. The result is a recommendation system that can provide meaningful game suggestions based on textual input from users.
