@@ -1,6 +1,4 @@
-Sure! Here’s how you can structure the entire README using standard text and code blocks for better readability on GitHub.
 
----
 
 # Steam-lit: Word Embeddings and LDA-Based NLP Recommendation System
 
